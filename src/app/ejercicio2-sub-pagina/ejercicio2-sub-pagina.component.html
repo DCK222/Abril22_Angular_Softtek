@@ -1,0 +1,18 @@
+<body>
+    
+    @if(infoporid){
+        <div class="contenedorinicio">
+            <div id="contenedorimg">
+            @if (imageUrl) {
+                <img id="img" width="500px" [src]="imageUrl" alt="">
+            }
+        </div>
+        <div id="contenedortexto">
+            <h3>{{titulo}}</h3>
+            <p>{{ infoporid }}</p>
+        </div>
+            
+          </div>
+    
+    }
+    </body>

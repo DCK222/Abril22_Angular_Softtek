@@ -1,0 +1,24 @@
+<!-- @for(casasinfo of info; track $index){
+    <p >{{casasinfo.id}}</p>
+    <p>{{casasinfo.info}}</p>
+    
+} -->
+<body>
+    
+<h1>Nuestras Casas Lujosas</h1>
+@if(infoporid){
+    <div class="contenedorinicio">
+        <div id="contenedorimg">
+        @if (imageUrl) {
+            <img id="img" width="500px" [src]="imageUrl" alt="">
+        }
+    </div>
+    <div id="contenedortexto">
+        <h3>{{titulo}}</h3>
+        <p>{{ infoporid }}</p>
+    </div>
+        
+      </div>
+
+}
+</body>

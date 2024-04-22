@@ -1,0 +1,41 @@
+<body>
+    <div id="contenedorinicial">
+  <h1>Inmuebles a la venta</h1>
+      <div class="conteinmuebles">
+        <div class="conteimg">
+          <img class="img" width="300px" src="./assets/casa-lujo-inhaus-sevilla-zona-invitados.jpg" alt="">
+        </div>
+        <div class="conteInfo">
+          <p>Ubicada majestuosamente en lo alto de las colinas de Hollywood, Villa Serenidad ofrece un estilo de vida verdaderamente exclusivo. Con vistas panorámicas de Los Ángeles que se extienden hasta el océano, esta residencia contemporánea es un monumento a la elegancia moderna. Desde el momento en que pones un pie en sus impresionantes jardines paisajísticos, te sumerges en un oasis de lujo y tranquilidad.</p>
+          <button [routerLink]="['/inmuebles', 1]" class="botonmasinfo">Mas informacion</button>
+        </div>
+        
+      </div>
+  
+      <div class="conteinmuebles">
+        <div class="conteimg">
+          <img class="img" width="300px" src="./assets/casa-lujo.jpg" alt="">
+        </div>
+        <div class="conteInfo">
+          <p>Bienvenido al Palacio del Lago, una obra maestra arquitectónica enclavada en las orillas del lago Lemán en Ginebra, Suiza. Esta impresionante propiedad combina la opulencia con la ubicación incomparable, ofreciendo vistas panorámicas del lago y los Alpes suizos. Con más de 20,000 pies cuadrados de espacio habitable </p>
+          <button [routerLink]="['/inmuebles', 2]" class="botonmasinfo">Mas informacion</button>
+        </div>
+        
+      </div>
+  
+      <div class="conteinmuebles">
+        <div class="conteimg">
+          <img class="img" width="300px" src="./assets/casas-lujo-madrid-inhaus-2.jpg" alt="">
+        </div>
+        <div class="conteInfo">
+          <p>La Residencia Paradiso, ubicada en la pintoresca Riviera Italiana, es un refugio de ensueño que combina la elegancia clásica con el encanto mediterráneo. Situada en un terreno privado con vistas al mar Tirreno, esta villa ofrece una mezcla perfecta de lujo y serenidad. Desde sus exuberantes jardines hasta sus terrazas con vistas al mar, cada rincón de esta propiedad ha sido diseñado para capturar la belleza natural de su entorno. </p>
+          <button [routerLink]="['/inmuebles', 3]" class="botonmasinfo">Mas informacion</button>
+        </div>
+        
+      </div>
+  
+    </div>
+  
+  </body>
+  <router-outlet></router-outlet>
+  

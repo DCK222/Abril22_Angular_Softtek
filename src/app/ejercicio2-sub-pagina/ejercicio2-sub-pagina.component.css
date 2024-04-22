@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+.contenedorinicio{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5%;
+    height: 80vh;
+    
+}
+#img{
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px rgb(136, 136, 136);
+}
