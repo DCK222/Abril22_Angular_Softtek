@@ -19,6 +19,8 @@ export class Ejercicio2SubPaginaComponent implements OnInit {
   imageUrl: string | undefined;
   id: number | undefined; 
   infoporid: string | undefined;
+
+  
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
