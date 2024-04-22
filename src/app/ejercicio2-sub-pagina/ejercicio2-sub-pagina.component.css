@@ -4,6 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(43, 43, 43);
     color: white;
+
 }
 .contenedorinicio{
     display: flex;
@@ -11,9 +12,14 @@ body{
     flex-direction: row;
     gap: 5%;
     height: 80vh;
+    margin: 5%;
+    padding: 5%;
     
 }
 #img{
     border-radius: 8px;
-    box-shadow: 1px 1px 1px 1px rgb(136, 136, 136);
+    box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
+}
+h3{
+    color: rgb(99, 255, 37);
 }

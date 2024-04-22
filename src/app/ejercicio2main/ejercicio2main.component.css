@@ -28,7 +28,7 @@ body{
 #conteimg {
     width: 100%;
     height: 70vh;
-    background-color: rgb(69, 90, 109);
+    background-color: rgb(43, 43, 43);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +51,7 @@ body{
   
 }
 .tarjetas {
-    padding: 1px;
+    padding: 10px;
     margin: 1px;
     margin-top: 2%;
     color: white;
@@ -63,7 +63,8 @@ body{
     height: 350px;
     width: 200px;
     gap: 5%;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid white; 
+    border-radius: 8px;
 }
 
 .tarjetas img {
@@ -71,6 +72,7 @@ body{
     max-height: 100%;
     object-fit: contain;
     margin: 0; 
+    margin-top: 0; 
 }
 #pes{
     color: rgb(99, 255, 37);
