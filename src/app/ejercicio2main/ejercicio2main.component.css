@@ -5,8 +5,9 @@
 }
 body{
     width: 100%;
-    height: 170vh;
+    height: 180vh;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(43, 43, 43);
 
 }
 #conteini{
@@ -40,6 +41,7 @@ body{
     object-fit: contain;
 }
 #contetarjetas{
+    margin-top: 4%;
     background-color: rgb(43, 43, 43);
     width: 100%;
     height: 70vh;
@@ -55,16 +57,20 @@ body{
     margin: 1px;
     margin-top: 2%;
     color: white;
-    width: 200px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 350px;
-    width: 200px;
+    width: 230px;
     gap: 5%;
     border: 2px solid white; 
     border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.tarjetas:hover{
+    transform: scale(1.05); 
 }
 
 .tarjetas img {
@@ -76,4 +82,8 @@ body{
 }
 #pes{
     color: rgb(99, 255, 37);
+}
+#banner{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(129, 129, 129);
 }
